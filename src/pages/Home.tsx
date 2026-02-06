@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Hero from "./Hero";
 import Contact from "./Contact";
 import Service from "./Service";
+import TrustElements from "../components/TrustElements";
 
 function Home(){
     return (
@@ -10,6 +11,7 @@ function Home(){
             <Navbar/>
             <Hero/>
             <Service/>
+            <TrustElements/>
             <Contact/>
             <Footer/>
         </>
