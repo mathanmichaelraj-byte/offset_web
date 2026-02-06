@@ -80,11 +80,11 @@ function Service(){
 
     return (
         <>
-        <section id="services" className="py-20 bg-neutral-primary">
+        <section id="services" className="py-20 bg-gray-50">
             <div className="max-w-screen-xl mx-auto px-4">
                 <div className="text-center mb-16">
-                    <h2 className="text-4xl md:text-5xl font-bold text-heading mb-4">Our Services</h2>
-                    <p className="text-lg text-body max-w-2xl mx-auto">Professional offset printing services - Click to view pricing</p>
+                    <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Our Services</h2>
+                    <p className="text-lg text-gray-600 max-w-2xl mx-auto">Professional offset printing services - Click to view pricing</p>
                 </div>
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -97,8 +97,8 @@ function Service(){
                     ))}
                 </div>
 
-                <div className="mt-10 text-center bg-neutral-secondary-soft p-6 rounded-xl border border-default max-w-2xl mx-auto">
-                    <p className="text-sm text-body"><span className="font-semibold text-heading">Note:</span> Prices vary based on paper quality, customization, and finishing. Contact us for exact quotes.</p>
+                <div className="mt-10 text-center bg-white p-6 rounded-xl border border-gray-200 max-w-2xl mx-auto shadow-sm">
+                    <p className="text-sm text-gray-600"><span className="font-semibold text-gray-900">Note:</span> Prices vary based on paper quality, customization, and finishing. Contact us for exact quotes.</p>
                 </div>
             </div>
         </section>
