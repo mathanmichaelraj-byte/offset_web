@@ -54,7 +54,7 @@ function Contact(){
                                 ></textarea>
                             </div>
                             <p className="text-xs text-gray-500 italic">This will open your email app</p>
-                            <button type="submit" className="w-full bg-brand text-white py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors shadow-lg">Get a Quote</button>
+                            <button type="submit" className="w-full text-white py-4 rounded-lg font-semibold bg-blue-700 transition-colors shadow-lg hover:scale-105 transform transition duration-500">Get a Quote</button>
                         </form>
                     </div>
 

@@ -9,10 +9,10 @@ const Hero = () => {
                     Professional printing for diaries, notebooks, registers & custom works
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center px-4">
-                    <a href="#contact" className="w-full sm:w-auto bg-brand text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors shadow-lg text-center">
+                    <a href="#contact" className="w-full sm:w-auto bg-brand text-brand hover:text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors shadow-lg text-center">
                         Get a Quote
                     </a>
-                    <a href="#services" className="w-full sm:w-auto border-2 border-brand text-brand px-8 py-4 rounded-lg font-semibold hover:bg-brand hover:text-white transition-all text-center">
+                    <a href="#services" className="w-full sm:w-auto border-2 border-brand text-brand px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 hover:text-white transition-all text-center">
                         View Services
                     </a>
                 </div>
