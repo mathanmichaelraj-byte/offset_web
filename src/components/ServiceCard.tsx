@@ -1,5 +1,3 @@
-import sampleImage from "../assets/image/sample.jpg";
-
 interface PricingItem {
     size: string;
     qty: string;
@@ -11,6 +9,7 @@ interface ServiceCardProps {
         id: string;
         title: string;
         desc: string;
+        image: string;
         pricing: PricingItem[];
     };
     onClick: () => void;
@@ -24,7 +23,7 @@ const ServiceCard = ({ service, onClick }: ServiceCardProps) => {
         >
             <div className="relative h-48 bg-neutral-tertiary overflow-hidden">
                 <img 
-                    src={sampleImage} 
+                    src={service.image} 
                     alt={service.title}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />

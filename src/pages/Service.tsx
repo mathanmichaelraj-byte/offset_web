@@ -1,6 +1,7 @@
 import { useState } from "react";
 import PricingModal from "../components/Pricing";
 import ServiceCard from "../components/ServiceCard";
+import sampleImage from "../assets/image/sample.jpg";
 
 function Service(){
     const [selectedService, setSelectedService] = useState<{id: string, title: string, pricing: any[]} | null>(null);
@@ -10,6 +11,7 @@ function Service(){
             id: "diaries",
             title: "Diaries & Planners", 
             desc: "Custom diaries and planners with personalized designs and branding",
+            image: sampleImage,
             pricing: [
                 { size: "A5 Size", qty: "100-500", price: "₹80-120/piece" },
                 { size: "A5 Size", qty: "500+", price: "₹60-90/piece" },
@@ -26,7 +28,8 @@ function Service(){
                 { size: "Single Line (80 pages)", qty: "500+", price: "₹18-30/piece" },
                 { size: "Four Line (100 pages)", qty: "100-500", price: "₹30-50/piece" },
                 { size: "Four Line (100 pages)", qty: "500+", price: "₹22-38/piece" },
-            ]
+            ],
+            image:sampleImage
         },
         { 
             id: "registers",
@@ -37,7 +40,8 @@ function Service(){
                 { size: "200 Pages", qty: "200+", price: "₹90-140/piece" },
                 { size: "300 Pages", qty: "50-200", price: "₹180-250/piece" },
                 { size: "300 Pages", qty: "200+", price: "₹140-200/piece" },
-            ]
+            ],
+            image:sampleImage
         },
         { 
             id: "cards",
@@ -48,7 +52,8 @@ function Service(){
                 { size: "Standard (300 GSM)", qty: "500+", price: "₹150-250/100 cards" },
                 { size: "Premium (400 GSM)", qty: "100-500", price: "₹300-500/100 cards" },
                 { size: "Premium (400 GSM)", qty: "500+", price: "₹250-400/100 cards" },
-            ]
+            ],
+            image:sampleImage
         },
         { 
             id: "custom",
@@ -58,7 +63,8 @@ function Service(){
                 { size: "Brochures/Flyers", qty: "Contact us", price: "Custom Quote" },
                 { size: "Catalogs", qty: "Contact us", price: "Custom Quote" },
                 { size: "Booklets", qty: "Contact us", price: "Custom Quote" },
-            ]
+            ],
+            image:sampleImage
         },
         { 
             id: "bulk",
@@ -67,7 +73,8 @@ function Service(){
             pricing: [
                 { size: "Any Product", qty: "1000+", price: "Special Rates" },
                 { size: "Corporate Orders", qty: "Contact us", price: "Negotiable" },
-            ]
+            ],
+            image:sampleImage
         }
     ];
 

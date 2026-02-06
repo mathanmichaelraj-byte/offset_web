@@ -17,7 +17,7 @@ const Navbar = () => {
     return (
 <nav className={`bg-neutral-primary fixed w-full z-20 start-0 border-b border-default transition-transform duration-300 ${hidden ? '-translate-y-full' : 'translate-y-0'}`}>
   <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-    <a href="https://flowbite.com/" className="flex items-center space-x-3 rtl:space-x-reverse">
+    <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
         <img src="https://flowbite.com/docs/images/logo.svg" className="h-7" alt="Flowbite Logo" />
         <span className="self-center text-xl text-heading font-semibold whitespace-nowrap">OFFSET</span>
     </a>
