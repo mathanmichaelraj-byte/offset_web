@@ -19,7 +19,7 @@ const ServiceCard = ({ service, onClick }: ServiceCardProps) => {
     return (
         <div 
             onClick={onClick}
-            className="group bg-white rounded-xl border border-gray-200 hover:border-brand hover:shadow-lg transition-all duration-300 cursor-pointer overflow-hidden h-full flex flex-col"
+            className="group bg-white rounded-xl border border-gray-200 shadow-sm hover:border-brand hover:shadow-xl transition-all duration-300 cursor-pointer overflow-hidden h-full flex flex-col"
         >
             <div className="relative h-40 sm:h-48 bg-gray-100 overflow-hidden">
                 <img 

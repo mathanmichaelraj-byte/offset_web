@@ -1,3 +1,5 @@
+import { contactConfig, companyConfig } from "../config";
+
 const Footer = () =>{
     const currentYear = new Date().getFullYear();
     
@@ -6,9 +8,9 @@ const Footer = () =>{
         <div className="md:flex md:justify-between mb-8">
           <div className="mb-6 md:mb-0">
               <a href="#" className="flex items-center mb-4">
-                  <span className="text-2xl font-bold text-white">OFFSET PRINTING</span>
+                  <span className="text-2xl font-bold text-white">{companyConfig.name}</span>
               </a>
-              <p className="text-gray-400 text-sm max-w-xs">Professional offset printing services for all your business needs.</p>
+              <p className="text-gray-400 text-sm max-w-xs">{companyConfig.tagline}</p>
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-12 sm:grid-cols-3">
               <div>
@@ -29,25 +31,25 @@ const Footer = () =>{
                           <a href="#services" className="hover:text-brand transition-colors">Diaries</a>
                       </li>
                       <li>
-                          <a href="#services" className="hover:text-brand transition-colors">Notebooks</a>
+                          <a href="#services" className="hover:text-brand transition-colors">Calenders</a>
                       </li>
                       <li>
-                          <a href="#services" className="hover:text-brand transition-colors">Registers</a>
+                          <a href="#services" className="hover:text-brand transition-colors">Paper Bags</a>
                       </li>
                   </ul>
               </div>
               <div>
                   <h2 className="mb-4 text-sm font-semibold text-white uppercase">Contact</h2>
                   <ul className="text-gray-400 font-medium space-y-2">
-                      <li className="hover:text-brand transition-colors cursor-pointer">+91 1234567890</li>
-                      <li className="hover:text-brand transition-colors cursor-pointer">orders@offsetprinting.com</li>
+                      <li className="hover:text-brand transition-colors cursor-pointer">{contactConfig.phone}</li>
+                      <li className="hover:text-brand transition-colors cursor-pointer">{contactConfig.email}</li>
                   </ul>
               </div>
           </div>
       </div>
       <hr className="my-6 border-gray-700" />
       <div className="sm:flex sm:items-center sm:justify-between">
-          <span className="text-sm text-gray-400">© {currentYear} <span className="text-white font-semibold">OFFSET PRINTING</span>. All Rights Reserved.
+          <span className="text-sm text-gray-400">© {currentYear} <span className="text-white font-semibold">{companyConfig.name}</span>. All Rights Reserved.
           </span>
           <div className="flex mt-4 sm:justify-center sm:mt-0 gap-4">
             <a href="#" className="text-gray-400 hover:text-brand transition-colors">
