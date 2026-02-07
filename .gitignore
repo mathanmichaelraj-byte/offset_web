@@ -31,6 +31,3 @@ build
 *.njsproj
 *.sln
 *.sw?
-
-#Images
-src/assets/image/services
