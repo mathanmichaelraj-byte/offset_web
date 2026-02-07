@@ -1,4 +1,10 @@
-import sampleImage from "../assets/image/sample.jpg";
+import sweetBox from "../assets/image/services/sweetBox.jpg"
+import cartonBox from "../assets/image/services/carton.jpg"
+import textilesBox from "../assets/image/services/textile.jpg"
+import calendar from "../assets/image/services/calendar.jpg"
+import diary from "../assets/image/services/diary.jpg"
+import cover from "../assets/image/services/cover.jpg"
+import paperbags from "../assets/image/services/bags.jpg"
 
 export const contactConfig = {
     email: "selvabharath2024@gmail.com",
@@ -17,7 +23,7 @@ export const servicesData = [
         id: "sweetbox",
         title: "Printed Sweet Box", 
         desc: "Custom printed sweet boxes for festivals and special occasions",
-        image: sampleImage,
+        image: sweetBox,
         pricing: [
             { size: "Small", qty: "100-500", price: "₹15-25/piece" },
             { size: "Small", qty: "500+", price: "₹10-18/piece" },
@@ -35,7 +41,7 @@ export const servicesData = [
             { size: "Large", qty: "100+", price: "₹80-120/piece" },
             { size: "Bulk Orders", qty: "500+", price: "Contact us" },
         ],
-        image: sampleImage
+        image: cartonBox
     },
     { 
         id: "textilesbox",
@@ -46,7 +52,7 @@ export const servicesData = [
             { size: "Standard", qty: "500+", price: "₹15-28/piece" },
             { size: "Premium", qty: "100+", price: "₹35-55/piece" },
         ],
-        image: sampleImage
+        image: textilesBox
     },
     { 
         id: "calendar",
@@ -58,7 +64,7 @@ export const servicesData = [
             { size: "Table Calendar", qty: "100-500", price: "₹25-45/piece" },
             { size: "Table Calendar", qty: "500+", price: "₹18-35/piece" },
         ],
-        image: sampleImage
+        image: calendar
     },
     { 
         id: "diary",
@@ -69,7 +75,7 @@ export const servicesData = [
             { size: "A5 Size", qty: "500+", price: "₹60-90/piece" },
             { size: "A4 Size", qty: "100+", price: "₹120-180/piece" },
         ],
-        image: sampleImage
+        image: diary
     },
     { 
         id: "cover",
@@ -80,7 +86,7 @@ export const servicesData = [
             { size: "Standard", qty: "500+", price: "₹8-15/piece" },
             { size: "Premium Finish", qty: "100+", price: "₹15-30/piece" },
         ],
-        image: sampleImage
+        image: cover
     },
     { 
         id: "paperbags",
@@ -92,6 +98,6 @@ export const servicesData = [
             { size: "Large", qty: "100+", price: "₹18-30/piece" },
             { size: "Bulk Orders", qty: "1000+", price: "Special Rates" },
         ],
-        image: sampleImage
+        image: paperbags
     }
 ];
