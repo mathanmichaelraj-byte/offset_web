@@ -30,7 +30,7 @@ function Service(){
                 </div>
 
                 <div className="mt-8 md:mt-12 text-center">
-                    <a href="#contact" className="inline-block w-full sm:w-auto bg-brand text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors shadow-lg">
+                    <a href="#contact" className="inline-block w-full sm:w-auto bg-brand text-black px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 hover:text-white transition-colors shadow-lg">
                         Get a Quote
                     </a>
                 </div>
